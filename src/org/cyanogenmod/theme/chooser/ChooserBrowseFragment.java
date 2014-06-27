@@ -15,24 +15,15 @@
  */
 package org.cyanogenmod.theme.chooser;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import android.content.res.CustomTheme;
-
 import android.graphics.Color;
 import android.view.Gravity;
-import org.cyanogenmod.theme.chooser.WallpaperAndIconPreviewFragment.IconInfo;
-import org.cyanogenmod.theme.util.BootAnimationHelper;
-import org.cyanogenmod.theme.util.IconPreviewHelper;
-import org.cyanogenmod.theme.util.ThemedTypefaceHelper;
-import org.cyanogenmod.theme.util.Utils;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.AssetManager;
+import android.content.res.CustomTheme;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -59,12 +50,20 @@ import android.webkit.URLUtil;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.cyanogenmod.theme.chooser.WallpaperAndIconPreviewFragment.IconInfo;
+import org.cyanogenmod.theme.util.BootAnimationHelper;
+import org.cyanogenmod.theme.util.IconPreviewHelper;
+import org.cyanogenmod.theme.util.ThemedTypefaceHelper;
+import org.cyanogenmod.theme.util.Utils;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+
 public class ChooserBrowseFragment extends Fragment
         implements LoaderManager.LoaderCallbacks<Cursor> {
     public static final String TAG = ChooserBrowseFragment.class.getCanonicalName();
