@@ -64,6 +64,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.HashMap;
 public class ChooserBrowseFragment extends Fragment
         implements LoaderManager.LoaderCallbacks<Cursor> {
     public static final String TAG = ChooserBrowseFragment.class.getCanonicalName();
@@ -155,6 +156,8 @@ public class ChooserBrowseFragment extends Fragment
     public class LocalPagerAdapter extends CursorAdapter {
         List<String> mFilters;
         Context mContext;
+        HashMap<String, ThemedTypefaceHelper> mTypefaceHelpers =
+                new HashMap<String, ThemedTypefaceHelper>();
 
         public LocalPagerAdapter(Context context, Cursor c, List<String> filters) {
             super(context, c, 0);
@@ -267,8 +270,14 @@ public class ChooserBrowseFragment extends Fragment
 
         public void bindFontView(View view, Context context, String pkgName) {
             FontItemHolder item = (FontItemHolder) view.getTag();
-            ThemedTypefaceHelper helper = new ThemedTypefaceHelper();
-            helper.load(mContext, pkgName);
+            ThemedTypefaceHelper helper;
+            if (!mTypefaceHelpers.containsKey(pkgName)) {
+                helper = new ThemedTypefaceHelper();
+                helper.load(mContext, pkgName);
+                mTypefaceHelpers.put(pkgName, helper);
+            } else {
+                helper = mTypefaceHelpers.get(pkgName);
+            }
             Typeface typefaceNormal = helper.getTypeface(Typeface.NORMAL);
             Typeface typefaceBold = helper.getTypeface(Typeface.BOLD);
             item.textView.setTypeface(typefaceNormal);
