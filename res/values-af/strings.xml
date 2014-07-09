@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">Tema suksesvol geïnstalleer.</string>
   <string name="menu_item_get_more_themes">Kry meer</string>
   <string name="get_more_description">Jy kan meer temas verkry van die volgende skakels:</string>
-  <string-array name="get_more_entry_names">
-    <item>Vertoonkas van CyanogenMod Temas</item>
-    <item>Play-winkel</item>
-    <item>Meer inligting op die CM Wiki</item>
-  </string-array>
 </resources>

@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">Teema edukalt installitud.</string>
   <string name="menu_item_get_more_themes">Saa rohkem</string>
   <string name="get_more_description">Sa saad rohkem teemasid järgnevatelt linkidelt:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod Teemade Esitlus</item>
-    <item>Play Pood</item>
-    <item>Rohkem teavet CM Wiki\'st</item>
-  </string-array>
 </resources>

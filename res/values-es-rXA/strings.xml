@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">Tema instaláu correutamente.</string>
   <string name="menu_item_get_more_themes">Consiguir más</string>
   <string name="get_more_description">Pues consiguir más temes nos siguientes enllaces:</string>
-  <string-array name="get_more_entry_names">
-    <item>Escaparate de temes de CyanogenMod</item>
-    <item>Play Store</item>
-    <item>Más información na Wiki de CM</item>
-  </string-array>
 </resources>
