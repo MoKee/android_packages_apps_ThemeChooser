@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">تێم به‌سه‌رکه‌وتوی دامه‌زرا.</string>
   <string name="menu_item_get_more_themes">وه‌رگرتنی زیاتر</string>
   <string name="get_more_description">ئه‌توانی ڕووکاری زیاتر وه‌ربگری له‌م به‌سته‌رانه‌وه‌:</string>
-  <string-array name="get_more_entry_names">
-    <item>ڕووکاری نیشاندراوی ساینه‌جینمۆد</item>
-    <item>پله‌ی ستۆر</item>
-    <item>زانیاری زیاتر له‌باره‌ی CM له‌ Wiki</item>
-  </string-array>
 </resources>
