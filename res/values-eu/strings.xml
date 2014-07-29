@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">Gaia arrakastaz instalatu da.</string>
   <string name="menu_item_get_more_themes">Gehiago lortu</string>
   <string name="get_more_description">Gai gehiago lor ditzazkezu hurrengo estekan:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod Themes Showcase</item>
-    <item>Play Store</item>
-    <item>informazio gehiago CM Wiki-an</item>
-  </string-array>
 </resources>

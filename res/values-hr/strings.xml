@@ -41,9 +41,4 @@
   <string name="theme_installed_notification_text">Tema je uspješno instalirana.</string>
   <string name="menu_item_get_more_themes">Više</string>
   <string name="get_more_description">Možete preuzeti više tema sa sljedećih poveznica:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod Themes Showcase</item>
-    <item>Play Store</item>
-    <item>Više informacija na CM Wiki</item>
-  </string-array>
 </resources>
