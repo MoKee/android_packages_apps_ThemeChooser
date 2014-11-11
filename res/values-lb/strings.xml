@@ -34,9 +34,4 @@
   <string name="theme_installed_notification_title">%s installéiert</string>
   <string name="menu_item_get_more_themes">Méi eroflueden</string>
   <string name="get_more_description">Du kanns méi Designen iwwer ee vun dëse Linken eroflueden:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod Themes Showcase</item>
-    <item>Play Store</item>
-    <item>More info on the CM Wiki</item>
-  </string-array>
 </resources>
