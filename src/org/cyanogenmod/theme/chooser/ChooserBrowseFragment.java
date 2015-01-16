@@ -194,8 +194,8 @@ public class ChooserBrowseFragment extends Fragment
         sb.append(getActivity().getString(R.string.get_more_description));
         sb.append("<ul>");
 
-        String[] entryNames = context.getResources().getStringArray(R.array.get_more_entry_names);
-        String[] entryUrls = context.getResources().getStringArray(R.array.get_more_entry_urls);
+        String[] entryNames = context.getResources().getStringArray(R.array.themes_get_more_entry_names);
+        String[] entryUrls = context.getResources().getStringArray(R.array.themes_get_more_entry_urls);
         for(int i=0; i < entryNames.length; i++) {
             String name = entryNames[i];
             String url = entryUrls[i];
