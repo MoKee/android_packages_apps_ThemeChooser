@@ -40,9 +40,4 @@
   <string name="theme_installed_notification_text">Motiv byl úspěšně nainstalován.</string>
   <string name="menu_item_get_more_themes">Získat více</string>
   <string name="get_more_description">Další motivy můžete získat z následujících odkazů:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod Themes Showcase</item>
-    <item>Obchod Play</item>
-    <item>Více informací na Wiki CM</item>
-  </string-array>
 </resources>

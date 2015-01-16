@@ -40,9 +40,4 @@
   <string name="theme_installed_notification_text">Tema a fost instalată cu succes.</string>
   <string name="menu_item_get_more_themes">Obțineți mai multe</string>
   <string name="get_more_description">Puteți obține mai multe teme de la link-urile următoare:</string>
-  <string-array name="get_more_entry_names">
-    <item>Galerie teme CyanogenMod</item>
-    <item>Play Store</item>
-    <item>Mai multe informații la Wiki CM</item>
-  </string-array>
 </resources>

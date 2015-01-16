@@ -40,9 +40,4 @@
   <string name="theme_installed_notification_text">テーマのインストールが完了しました。</string>
   <string name="menu_item_get_more_themes">他のテーマ</string>
   <string name="get_more_description">以下のリンクから他のテーマを手に入れることができます:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenModテーマショーケース</item>
-    <item>Playストア</item>
-    <item>CM Wikiで詳細情報を見る</item>
-  </string-array>
 </resources>

@@ -40,9 +40,4 @@
   <string name="theme_installed_notification_text">Motyw został pomyślnie zainstalowany.</string>
   <string name="menu_item_get_more_themes">Uzyskaj więcej</string>
   <string name="get_more_description">Więcej motywów można znaleźć na stronach:</string>
-  <string-array name="get_more_entry_names">
-    <item>Prezentacja motywów CyanogenMod</item>
-    <item>Sklep Play</item>
-    <item>Więcej informacji na stronie CM Wiki</item>
-  </string-array>
 </resources>

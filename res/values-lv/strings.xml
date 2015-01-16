@@ -40,9 +40,4 @@
   <string name="theme_installed_notification_text">Tēma veiksmīgi uzstādīta.</string>
   <string name="menu_item_get_more_themes">Iegūt vairāk</string>
   <string name="get_more_description">Jūs varat iegūt vairāk tēmas no šīm saitēm:</string>
-  <string-array name="get_more_entry_names">
-    <item>CyanogenMod tēmas demonstrācija</item>
-    <item>Play Store</item>
-    <item>Vairāk informācijas CM viki</item>
-  </string-array>
 </resources>
