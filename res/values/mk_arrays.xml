@@ -15,8 +15,13 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Themes Showcase Entry Names. Change this array only if you change the Entry URL -->
+    <string-array name="themes_get_more_entry_names" translatable="false">
+        <item>@string/get_more_entry_play_store</item>
+    </string-array>
 
-    <string name="get_more_entry_mk_themes_showcase">MoKee OpenSource Themes Showcase</string>
-    <string name="designed_for_mk50">Designed for MK50</string>
-
+    <!-- Themes Showcase Entry URLS. Change this array only if you also change the Entry Name -->
+    <string-array name="themes_get_more_entry_urls" translatable="false">
+        <item>https://play.google.com/store/search?q=theme+engine&amp;c=apps</item>
+    </string-array>
 </resources>
