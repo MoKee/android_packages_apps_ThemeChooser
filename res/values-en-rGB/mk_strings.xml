@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources>
-  <string name="get_more_entry_mk_themes_showcase">魔趣主题</string>
-  <string name="designed_for_mk50">适用于MK50</string>
+  <string name="get_more_entry_mk_themes_showcase">MoKee OpenSource Themes Showcase</string>
+  <string name="designed_for_mk50">Designed for MK50</string>
 </resources>
