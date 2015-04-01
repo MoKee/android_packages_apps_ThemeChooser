@@ -85,7 +85,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_below="@id/title"
                     android:layout_marginTop="-2dp"
-                    android:text="@string/designed_for_mk50"
+                    android:text="@string/designed_for_mk51"
                     android:textSize="12sp"
                     android:textColor="@color/designed_for_color"
                     android:visibility="gone"/>
