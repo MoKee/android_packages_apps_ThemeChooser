@@ -18,10 +18,12 @@
     <!-- Themes Showcase Entry Names. Change this array only if you change the Entry URL -->
     <string-array name="themes_get_more_entry_names" translatable="false">
         <item>@string/get_more_entry_play_store</item>
+        <item>@string/get_more_entry_mokee_forum</item>
     </string-array>
 
     <!-- Themes Showcase Entry URLS. Change this array only if you also change the Entry Name -->
     <string-array name="themes_get_more_entry_urls" translatable="false">
         <item>https://play.google.com/store/search?q=theme+engine&amp;c=apps</item>
+        <item>http://bbs.mfunz.com/type=280&amp;filter=typeid&amp;typeid=2197</item>
     </string-array>
 </resources>
