@@ -48,8 +48,5 @@
   <string name="theme_installed_notification_text">تم با موفقیت نصب شد.</string>
   <string name="menu_item_get_more_themes">دریافت بیشتر</string>
   <string name="get_more_description">شما می‌توانید از طریق لینک‌های زیر، تم‌های بیشتری دریافت کنید:</string>
-  <string name="get_more_entry_cm_themes_showcase">ویترین تم‌های سیانوژن مود</string>
   <string name="get_more_entry_play_store">Play Store</string>
-  <string name="get_more_entry_cm_wiki">اطلاعات بیشتر در CM Wiki</string>
-  <string name="designed_for_cm11">طراحی‌شده برای CM11</string>
 </resources>
