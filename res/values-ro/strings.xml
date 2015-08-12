@@ -46,6 +46,5 @@
   <string name="theme_installed_notification_text">Tema a fost instalată cu succes.</string>
   <string name="menu_item_get_more_themes">Obțineți mai multe</string>
   <string name="get_more_description">Puteți obține mai multe teme de la link-urile următoare:</string>
-  <string name="get_more_entry_cm_themes_showcase">Galerie de teme CyanogenMod</string>
   <string name="get_more_entry_play_store">Magazin Play</string>
 </resources>
