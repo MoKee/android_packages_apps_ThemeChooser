@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">הערכה הותקנה בהצלחה.</string>
   <string name="menu_item_get_more_themes">קבל עוד</string>
   <string name="get_more_description">אתה יכול לקבל עוד ערכות עיצוב מהקישורים הבאים:</string>
+  <string name="get_more_app_not_available">יישום לא זמין</string>
   <string name="get_more_entry_play_store">חנות Play</string>
 </resources>

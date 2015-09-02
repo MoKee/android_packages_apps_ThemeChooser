@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Teema asennettu onnistuneesti.</string>
   <string name="menu_item_get_more_themes">Hanki lisää</string>
   <string name="get_more_description">Voit hankkia lisää teemoja seuraavista osoitteista:</string>
+  <string name="get_more_app_not_available">Sovellus ei käytettävissä</string>
   <string name="get_more_entry_play_store">Play-kauppa</string>
 </resources>

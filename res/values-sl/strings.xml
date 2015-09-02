@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Tema uspešno nameščena.</string>
   <string name="menu_item_get_more_themes">Dobi več</string>
   <string name="get_more_description">Več tem si lahko pridobite na naslednjih povezavah:</string>
+  <string name="get_more_app_not_available">Program ni na voljo</string>
   <string name="get_more_entry_play_store">Trgovina Play</string>
 </resources>

@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Tema başarıyla yüklendi.</string>
   <string name="menu_item_get_more_themes">Daha fazlasını edinin</string>
   <string name="get_more_description">Aşağıdaki bağlantılardan daha fazla temaya ulaşabilirsiniz:</string>
+  <string name="get_more_app_not_available">Uyg. kullanılabilir değil</string>
   <string name="get_more_entry_play_store">Play Store</string>
 </resources>

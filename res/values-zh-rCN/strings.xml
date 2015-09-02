@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">主题已成功安装。</string>
   <string name="menu_item_get_more_themes">获取更多主题</string>
   <string name="get_more_description">你可以从下面的链接获取更多主题：</string>
+  <string name="get_more_app_not_available">应用不可用</string>
   <string name="get_more_entry_play_store">Play 商店</string>
 </resources>

@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Design erfollegräich installéiert.</string>
   <string name="menu_item_get_more_themes">Méi eroflueden</string>
   <string name="get_more_description">Du kanns méi Designen iwwer ee vun dëse Linken eroflueden:</string>
+  <string name="get_more_app_not_available">App net disponibel</string>
   <string name="get_more_entry_play_store">Play Store</string>
 </resources>

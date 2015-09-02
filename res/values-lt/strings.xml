@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Tema sėkmingai įdiegta.</string>
   <string name="menu_item_get_more_themes">Gauti daugiau</string>
   <string name="get_more_description">Galite gauti daugiau temų iš šių nuorodų:</string>
+  <string name="get_more_app_not_available">Programa nepasiekiama</string>
   <string name="get_more_entry_play_store">„Play“ parduotuvė</string>
 </resources>
