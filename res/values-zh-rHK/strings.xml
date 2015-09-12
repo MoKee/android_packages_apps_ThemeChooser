@@ -48,6 +48,4 @@
   <string name="get_more_description">你可以從下面的連結取得更多主題：</string>
   <string name="get_more_app_not_available">應用程式不可用</string>
   <string name="get_more_entry_play_store">Play Store</string>
-  <string name="get_more_entry_cm_wiki">CM Wiki 上查看更多資訊</string>
-  <string name="designed_for_cm11">專為 CM11 設計</string>
 </resources>
