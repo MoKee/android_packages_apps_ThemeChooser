@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Тема је успешно инсталирана.</string>
   <string name="menu_item_get_more_themes">Набави још</string>
   <string name="get_more_description">Можеш да набавиш још тема са следећих линкова:</string>
+  <string name="get_more_app_not_available">Апликација није доступна</string>
   <string name="get_more_entry_play_store">Play продавница</string>
 </resources>

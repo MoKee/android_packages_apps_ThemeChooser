@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Thème installé avec succès.</string>
   <string name="menu_item_get_more_themes">Obtenez plus</string>
   <string name="get_more_description">Vous pouvez obtenir plus de thèmes depuis les liens suivants :</string>
+  <string name="get_more_app_not_available">Application non disponible</string>
   <string name="get_more_entry_play_store">Play Store</string>
 </resources>
