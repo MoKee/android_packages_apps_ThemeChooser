@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources>
-  <string name="get_more_entry_mk_themes_showcase">Escaparate de Temas MoKee OpenSource</string>
   <string name="designed_for_mk51">Diseñado para MK51</string>
+  <string name="get_more_entry_mokee_forum">Foro MoKee</string>
 </resources>

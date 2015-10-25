@@ -16,5 +16,6 @@
      limitations under the License.
 -->
 <resources>
-  <string name="designed_for_mk51">Určené pro MK51</string>
+  <string name="designed_for_mk51">MK51 için tasarlandı</string>
+  <string name="get_more_entry_mokee_forum">MoKee forumu</string>
 </resources>
