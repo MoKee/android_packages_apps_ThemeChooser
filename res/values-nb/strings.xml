@@ -48,5 +48,6 @@
   <string name="theme_installed_notification_text">Tema installert.</string>
   <string name="menu_item_get_more_themes">Få mer</string>
   <string name="get_more_description">Du kan få flere temaer fra følgende linker:</string>
+  <string name="get_more_app_not_available">App ikke tilgjengelig</string>
   <string name="get_more_entry_play_store">Play Butikk</string>
 </resources>
