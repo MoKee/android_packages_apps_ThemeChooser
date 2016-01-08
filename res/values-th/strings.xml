@@ -50,6 +50,4 @@
   <string name="get_more_description">คุณสามารถรับรูปแบบธีมเพิ่มเติมได้จากลิงค์ต่อไปนี้:</string>
   <string name="get_more_app_not_available">ไม่สามารถใช้งานแอปได้</string>
   <string name="get_more_entry_play_store">Play Store</string>
-  <string name="get_more_entry_cm_wiki">ข้อมูลเพิ่มเติมที่ CM Wiki</string>
-  <string name="designed_for_cm11">ออกแบบมาสำหรับ CM11</string>
 </resources>
