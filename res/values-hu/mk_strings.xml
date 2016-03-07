@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources>
-  <string name="designed_for_mk51">תוכנן עבור MK51</string>
-  <string name="get_more_entry_mokee_forum">פורום MoKee</string>
+  <string name="designed_for_mk51">MK51-hez tervezve</string>
+  <string name="get_more_entry_mokee_forum">MoKee-Fórum</string>
 </resources>
