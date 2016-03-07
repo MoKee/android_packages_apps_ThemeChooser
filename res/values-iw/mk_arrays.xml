@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources>
-  <string name="designed_for_mk51">Progettato per MK51</string>
-  <string name="get_more_entry_mokee_forum">MoKee Forum</string>
+  <!-- Themes Showcase Entry Names. Change this array only if you change the Entry URL -->
+  <!-- Themes Showcase Entry URLS. Change this array only if you also change the Entry Name -->
 </resources>
