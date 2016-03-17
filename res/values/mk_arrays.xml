@@ -24,6 +24,6 @@
     <!-- Themes Showcase Entry URLS. Change this array only if you also change the Entry Name -->
     <string-array name="themes_get_more_entry_urls" translatable="false">
         <item>https://play.google.com/store/search?q=theme+engine&amp;c=apps</item>
-        <item>http://bbs.mfunz.com/forum.php?mod=forumdisplay&amp;fid=280&amp;filter=typeid&amp;typeid=2197</item>
+        <item>http://bbs.mfunz.com/forum-444-1.html</item>
     </string-array>
 </resources>
