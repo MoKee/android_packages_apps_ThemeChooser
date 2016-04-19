@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015 The MoKee OpenSource Project
+     Copyright (C) 2016 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,9 +14,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-
-    <string name="designed_for_mk51">Designed for MK51</string>
-    <string name="forum_url" translatable="false">http://bbs.mfunz.com/forum-444-1.html</string>
-
-</resources>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@android:color/white" />
+</shape>
