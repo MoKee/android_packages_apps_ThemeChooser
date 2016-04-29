@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s terinstal</string>
   <string name="theme_installed_notification_text">Tema berhasil diinstal.</string>
   <string name="get_more_app_not_available">Aplikasi tidak tersedia</string>
-  <string name="designed_for_cm11">Dirancang untuk CM11</string>
 </resources>

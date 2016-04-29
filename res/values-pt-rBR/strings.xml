@@ -50,5 +50,4 @@
   <string name="theme_installed_notification_title">%s instalado</string>
   <string name="theme_installed_notification_text">Tema instalado com sucesso.</string>
   <string name="get_more_app_not_available">Aplicativo não disponível</string>
-  <string name="designed_for_cm11">Projetado para CM11</string>
 </resources>

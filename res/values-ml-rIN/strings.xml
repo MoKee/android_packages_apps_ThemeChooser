@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s ഇൻസ്റ്റാൾ ചെയ്തു</string>
   <string name="theme_installed_notification_text">തീം വിജയകരമായി ഇൻസ്റ്റാൾ ചെയ്തു.</string>
   <string name="get_more_app_not_available">അപ്ലിക്കേഷൻ ലഭ്യമല്ല</string>
-  <string name="designed_for_cm11">CM11 രൂപകൽപ്പന</string>
 </resources>

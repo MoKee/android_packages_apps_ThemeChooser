@@ -48,5 +48,4 @@
   <string name="font_preview_letters">AaBbCcDd123中文字</string>
   <string name="theme_installed_notification_title">%s 已安裝</string>
   <string name="theme_installed_notification_text">已成功主題安裝。</string>
-  <string name="designed_for_cm11">專為 CM11 設計</string>
 </resources>

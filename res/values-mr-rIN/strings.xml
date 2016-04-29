@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s स्थापित केले</string>
   <string name="theme_installed_notification_text">थीम यशस्वीपणे स्थापित केली.</string>
   <string name="get_more_app_not_available">अनुप्रयोग उपलब्ध नाही</string>
-  <string name="designed_for_cm11">CM11 साठी डिझाईन केलेले</string>
 </resources>

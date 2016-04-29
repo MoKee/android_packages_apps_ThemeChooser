@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s installeret</string>
   <string name="theme_installed_notification_text">Tema installeret.</string>
   <string name="get_more_app_not_available">App ikke tilgængelig</string>
-  <string name="designed_for_cm11">Designet til CM11</string>
 </resources>

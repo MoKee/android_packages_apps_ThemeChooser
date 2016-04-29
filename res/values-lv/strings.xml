@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s uzstādīts</string>
   <string name="theme_installed_notification_text">Tēma veiksmīgi uzstādīta.</string>
   <string name="get_more_app_not_available">Lietotne nav pieejama</string>
-  <string name="designed_for_cm11">Paredzēts priekš CM11</string>
 </resources>

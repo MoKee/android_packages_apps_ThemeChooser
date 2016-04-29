@@ -50,5 +50,4 @@
   <string name="theme_installed_notification_title">%s 已安装</string>
   <string name="theme_installed_notification_text">主题已成功安装。</string>
   <string name="get_more_app_not_available">应用不可用</string>
-  <string name="designed_for_cm11">为 CM11 设计</string>
 </resources>

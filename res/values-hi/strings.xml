@@ -48,5 +48,4 @@
   <string name="font_preview_letters">AaBbCcDd123</string>
   <string name="theme_installed_notification_title">%s स्थापित</string>
   <string name="theme_installed_notification_text">थीम सफलतापूर्वक स्थापित हो गया।</string>
-  <string name="designed_for_cm11">सीएम11 के लिए अभिकल्पित</string>
 </resources>

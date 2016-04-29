@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s مثبت</string>
   <string name="theme_installed_notification_text">تم تثبيت السمة بنجاح.</string>
   <string name="get_more_app_not_available">تطبيق غير متاح</string>
-  <string name="designed_for_cm11">مصمم ل CM11</string>
 </resources>

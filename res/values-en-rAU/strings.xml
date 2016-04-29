@@ -47,5 +47,4 @@
   <string name="font_preview_letters">AaBbCcDd123</string>
   <string name="theme_installed_notification_title">%s installed</string>
   <string name="theme_installed_notification_text">Theme successfully installed.</string>
-  <string name="designed_for_cm11">Designed for CM11</string>
 </resources>

@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s ಸ್ಥಾಪಿತಗೊಂಡಿದೆ</string>
   <string name="theme_installed_notification_text">ಥೀಮ್ ಯಶಸ್ವಿಯಾಗಿ ಸ್ಥಾಪಿತಗೊಂಡಿದೆ.</string>
   <string name="get_more_app_not_available">ಆಪ್ ಲಭ್ಯವಿಲ್ಲ</string>
-  <string name="designed_for_cm11">CM11ಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ</string>
 </resources>

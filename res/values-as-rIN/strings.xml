@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">%s ইনষ্টল কৰা হৈছে</string>
   <string name="theme_installed_notification_text">বিষয়বস্তু সফলভাবে ইনষ্টল কৰা হৈছে।</string>
   <string name="get_more_app_not_available">এপ্প উপলব্ধ নহয়</string>
-  <string name="designed_for_cm11">CM11 ৰ বাবে ডিজাইন কৰা</string>
 </resources>

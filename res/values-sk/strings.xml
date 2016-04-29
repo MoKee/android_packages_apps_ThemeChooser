@@ -49,5 +49,4 @@
   <string name="theme_installed_notification_title">Nainštalovaná téma %s</string>
   <string name="theme_installed_notification_text">Téma bola úspešne nainštalovaná.</string>
   <string name="get_more_app_not_available">Aplikácia nie je k dispozícii</string>
-  <string name="designed_for_cm11">Určená pre CM11</string>
 </resources>

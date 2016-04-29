@@ -50,5 +50,4 @@
   <string name="theme_installed_notification_title">%s instalován</string>
   <string name="theme_installed_notification_text">Motiv byl úspěšně nainstalován.</string>
   <string name="get_more_app_not_available">Aplikace není k dispozici</string>
-  <string name="designed_for_cm11">Určené pro CM11</string>
 </resources>

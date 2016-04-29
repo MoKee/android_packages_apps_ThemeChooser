@@ -50,5 +50,4 @@
   <string name="theme_installed_notification_title">%s instalirano</string>
   <string name="theme_installed_notification_text">Tema je uspješno instalirana.</string>
   <string name="get_more_app_not_available">Aplikacija nije dostupna</string>
-  <string name="designed_for_cm11">Napravljeno za CM11</string>
 </resources>
