@@ -29,7 +29,7 @@ import org.cyanogenmod.theme.util.NotificationHelper;
 import org.cyanogenmod.theme.util.PreferenceUtils;
 import org.cyanogenmod.theme.util.Utils;
 
-import cyanogenmod.providers.ThemesContract;
+import mokee.providers.ThemesContract;
 
 public class AppReceiver extends BroadcastReceiver {
 
@@ -39,11 +39,11 @@ public class AppReceiver extends BroadcastReceiver {
         String pkgName = uri != null ? uri.getSchemeSpecificPart() : null;
         String action = intent.getAction();
 
-        if (cyanogenmod.content.Intent.ACTION_THEME_INSTALLED.equals(action)) {
+        if (mokee.content.Intent.ACTION_THEME_INSTALLED.equals(action)) {
             if (!pkgName.equals(Utils.getDefaultThemePackageName(context))) {
                 NotificationHelper.postThemeInstalledNotification(context, pkgName);
             }
-        } else if (cyanogenmod.content.Intent.ACTION_THEME_REMOVED.equals(action)) {
+        } else if (mokee.content.Intent.ACTION_THEME_REMOVED.equals(action)) {
             // remove updated status for this theme (if one exists)
             PreferenceUtils.removeUpdatedTheme(context, pkgName);
 
@@ -55,7 +55,7 @@ public class AppReceiver extends BroadcastReceiver {
                 Utils.getDefaultThemePackageName(context));
             }
             NotificationHelper.cancelNotifications(context);
-        } else if (cyanogenmod.content.Intent.ACTION_THEME_UPDATED.equals(action)) {
+        } else if (mokee.content.Intent.ACTION_THEME_UPDATED.equals(action)) {
             try {
                 if (isTheme(context, pkgName)) {
                     PreferenceUtils.addUpdatedTheme(context, pkgName);

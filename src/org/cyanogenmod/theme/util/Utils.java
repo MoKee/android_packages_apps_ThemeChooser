@@ -48,11 +48,11 @@ import android.view.WindowManagerGlobal;
 
 import org.cyanogenmod.theme.chooser.ChooserActivity;
 
-import cyanogenmod.externalviews.KeyguardExternalView;
-import cyanogenmod.providers.CMSettings;
-import cyanogenmod.providers.ThemesContract;
+import mokee.externalviews.KeyguardExternalView;
+import mokee.providers.MKSettings;
+import mokee.providers.ThemesContract;
 
-import org.cyanogenmod.internal.util.ThemeUtils;
+import org.mokee.internal.util.ThemeUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -286,8 +286,8 @@ public class Utils {
         // Need to also check for devices with hardware keys where the user has chosen to use
         // the on screen navigation bar
         needsNavigationBar = needsNavigationBar ||
-                CMSettings.Secure.getInt(context.getContentResolver(),
-                        CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR, 0) == 1;
+                MKSettings.Secure.getInt(context.getContentResolver(),
+                        MKSettings.Secure.DEV_FORCE_SHOW_NAVBAR, 0) == 1;
         return needsNavigationBar;
     }
 
@@ -705,8 +705,8 @@ public class Utils {
     }
 
     public static String getDefaultThemePackageName(Context context) {
-        final String defaultThemePkg = CMSettings.Secure.getString(context.getContentResolver(),
-                CMSettings.Secure.DEFAULT_THEME_PACKAGE);
+        final String defaultThemePkg = MKSettings.Secure.getString(context.getContentResolver(),
+                MKSettings.Secure.DEFAULT_THEME_PACKAGE);
         if (!TextUtils.isEmpty(defaultThemePkg)) {
             PackageManager pm = context.getPackageManager();
             try {

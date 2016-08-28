@@ -23,23 +23,23 @@ import android.net.Uri;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 
-import cyanogenmod.app.ThemeVersion;
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.PreviewColumns;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
+import mokee.app.ThemeVersion;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.PreviewColumns;
+import mokee.providers.ThemesContract.ThemesColumns;
 
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
 
 public class CursorLoaderHelper {
 

@@ -98,16 +98,16 @@ import org.cyanogenmod.theme.widget.ConfirmCancelOverlay;
 import org.cyanogenmod.theme.widget.LockableScrollView;
 import org.cyanogenmod.theme.widget.ThemeTagLayout;
 
-import cyanogenmod.app.ThemeVersion;
-import cyanogenmod.providers.CMSettings;
-import cyanogenmod.providers.ThemesContract.PreviewColumns;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
-import cyanogenmod.themes.ThemeChangeRequest;
-import cyanogenmod.themes.ThemeChangeRequest.RequestType;
-import cyanogenmod.themes.ThemeManager;
+import mokee.app.ThemeVersion;
+import mokee.providers.MKSettings;
+import mokee.providers.ThemesContract.PreviewColumns;
+import mokee.providers.ThemesContract.ThemesColumns;
+import mokee.themes.ThemeChangeRequest;
+import mokee.themes.ThemeChangeRequest.RequestType;
+import mokee.themes.ThemeManager;
 
-import org.cyanogenmod.internal.util.CmLockPatternUtils;
-import org.cyanogenmod.internal.util.ThemeUtils;
+import org.mokee.internal.util.MkLockPatternUtils;
+import org.mokee.internal.util.ThemeUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -123,18 +123,18 @@ import java.util.zip.ZipFile;
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
 
 import static org.cyanogenmod.theme.chooser.ComponentSelector.DEFAULT_COMPONENT_ID;
 
@@ -153,9 +153,9 @@ import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_NOTIFICATI
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_ALARM;
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_LIVE_LOCK_SCREEN;
 
-import static cyanogenmod.providers.CMSettings.Secure.LIVE_LOCK_SCREEN_ENABLED;
+import static mokee.providers.MKSettings.Secure.LIVE_LOCK_SCREEN_ENABLED;
 
-import static org.cyanogenmod.internal.util.ThemeUtils.SYSTEM_TARGET_API;
+import static org.mokee.internal.util.ThemeUtils.SYSTEM_TARGET_API;
 
 public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         ThemeManager.ThemeChangeListener, ThemeManager.ThemeProcessingListener {
@@ -646,7 +646,7 @@ public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallb
             }
         }
 
-        CmLockPatternUtils lockPatternUtils = new CmLockPatternUtils(getActivity());
+        MkLockPatternUtils lockPatternUtils = new MkLockPatternUtils(getActivity());
         try {
             lockPatternUtils.setThirdPartyKeyguard(cn);
         } catch (PackageManager.NameNotFoundException e) {
@@ -2387,7 +2387,7 @@ public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallb
             return;
         }
         final Map<String,String> componentsToApply = getComponentsToApply();
-        boolean isLLSEnabled = CMSettings.Secure.getInt(getActivity().getContentResolver(),
+        boolean isLLSEnabled = MKSettings.Secure.getInt(getActivity().getContentResolver(),
                 LIVE_LOCK_SCREEN_ENABLED, 0) == 1;
         if (!TextUtils.isEmpty(componentsToApply.get(MODIFIES_LIVE_LOCK_SCREEN)) && !isLLSEnabled) {
             AlertDialog d = new AlertDialog.Builder(getActivity(),
@@ -2398,7 +2398,7 @@ public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallb
                             new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            CMSettings.Secure.putInt(getActivity().getContentResolver(),
+                            MKSettings.Secure.putInt(getActivity().getContentResolver(),
                                     LIVE_LOCK_SCREEN_ENABLED, 1);
                             getChooserActivity().themeChangeStart();
                             animateProgressIn(mApplyThemeRunnable);
@@ -2954,7 +2954,7 @@ public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallb
     }
 
     protected void startLiveLockScreenSettings() {
-        Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_OPEN_LIVE_LOCKSCREEN_SETTINGS);
+        Intent intent = new Intent(mokee.content.Intent.ACTION_OPEN_LIVE_LOCKSCREEN_SETTINGS);
         try {
             startActivity(intent);
         } catch (ActivityNotFoundException e) {

@@ -53,14 +53,14 @@ import org.cyanogenmod.theme.util.ThemedTypefaceHelper;
 import org.cyanogenmod.theme.util.TypefaceHelperCache;
 import org.cyanogenmod.theme.util.Utils;
 
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.PreviewColumns;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
-import cyanogenmod.themes.ThemeChangeRequest;
-import cyanogenmod.themes.ThemeChangeRequest.RequestType;
-import cyanogenmod.themes.ThemeManager;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.PreviewColumns;
+import mokee.providers.ThemesContract.ThemesColumns;
+import mokee.themes.ThemeChangeRequest;
+import mokee.themes.ThemeChangeRequest.RequestType;
+import mokee.themes.ThemeManager;
 
-import org.cyanogenmod.internal.util.ThemeUtils;
+import org.mokee.internal.util.ThemeUtils;
 
 import java.io.IOException;
 import java.util.HashMap;

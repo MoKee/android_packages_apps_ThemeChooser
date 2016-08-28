@@ -54,24 +54,24 @@ import org.cyanogenmod.theme.util.ThemedTypefaceHelper;
 import org.cyanogenmod.theme.util.TypefaceHelperCache;
 import org.cyanogenmod.theme.util.Utils;
 
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.PreviewColumns;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.PreviewColumns;
+import mokee.providers.ThemesContract.ThemesColumns;
 
 import java.util.Map;
 
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LAUNCHER;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LIVE_LOCK_SCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_LOCKSCREEN;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_OVERLAYS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_STATUS_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NAVIGATION_BAR;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ICONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_FONTS;
 
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_STATUS_BAR;
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_FONT;

@@ -73,19 +73,19 @@ import org.cyanogenmod.theme.util.PreferenceUtils;
 import org.cyanogenmod.theme.util.TypefaceHelperCache;
 import org.cyanogenmod.theme.util.Utils;
 
-import cyanogenmod.platform.Manifest;
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
-import cyanogenmod.themes.ThemeManager;
+import mokee.platform.Manifest;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.ThemesColumns;
+import mokee.themes.ThemeManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
-import static cyanogenmod.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_ALARMS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_BOOT_ANIM;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_NOTIFICATIONS;
+import static mokee.providers.ThemesContract.ThemesColumns.MODIFIES_RINGTONES;
 import static org.cyanogenmod.theme.chooser.ComponentSelector.DEFAULT_COMPONENT_ID;
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_INSTALLED_THEMES;
 import static org.cyanogenmod.theme.util.CursorLoaderHelper.LOADER_ID_APPLIED;
@@ -348,7 +348,7 @@ public class ChooserActivity extends FragmentActivity
 
     private void lauchGetThemes() {
         String playStoreUrl = getString(R.string.play_store_url);
-        String wikiUrl = getString(R.string.wiki_url);
+        String forumUrl = getString(R.string.forum_url);
 
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(playStoreUrl));
@@ -358,7 +358,7 @@ public class ChooserActivity extends FragmentActivity
             startActivity(intent);
         } else {
             // If no play store, try to open wiki url
-            intent.setData(Uri.parse(wikiUrl));
+            intent.setData(Uri.parse(forumUrl));
             if (intent.resolveActivity(getPackageManager()) != null) {
                 startActivity(intent);
             } else {

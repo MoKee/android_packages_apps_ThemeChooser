@@ -54,9 +54,9 @@ import android.widget.Toast;
 import org.cyanogenmod.theme.chooser.R;
 import org.cyanogenmod.theme.util.Utils;
 
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
-import cyanogenmod.themes.ThemeChangeRequest;
-import cyanogenmod.themes.ThemeManager;
+import mokee.providers.ThemesContract.ThemesColumns;
+import mokee.themes.ThemeChangeRequest;
+import mokee.themes.ThemeManager;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -5,4 +5,4 @@
 -keepattributes SourceFile,LineNumberTable
 
 -keep class android.support.**
--keep class cyanogenmod.themes.** { *; }
+-keep class mokee.themes.** { *; }
