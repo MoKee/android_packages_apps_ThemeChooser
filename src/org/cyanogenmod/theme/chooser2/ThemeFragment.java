@@ -2541,7 +2541,7 @@ public class ThemeFragment extends Fragment implements LoaderManager.LoaderCallb
             // Display cm11 theme warning message
             TextView tv = (TextView) mConfirmCancelOverlay.findViewById(R.id.warning_message);
             tv.setVisibility(View.VISIBLE);
-            tv.setText(String.format(getString(R.string.legacy_theme_warning), mTitle.getText()));
+            tv.setText(String.format(getString(R.string.legacy_theme_warning_mk), mTitle.getText()));
         } else if (Utils.hasPerAppThemesApplied(getActivity())) {
             // Display per app theme changes will be removed warning
             TextView tv = (TextView) mConfirmCancelOverlay.findViewById(R.id.warning_message);

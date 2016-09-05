@@ -17,5 +17,6 @@
 <resources>
 
     <string name="forum_url" translatable="false">http://bbs.mfunz.com/forum-444-1.html</string>
+    <string name="legacy_theme_warning_mk">NOTE: %s was designed for an older version of MK. You may experience compatibility issues with this theme.</string>
 
 </resources>
