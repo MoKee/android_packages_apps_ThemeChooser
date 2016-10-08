@@ -31,7 +31,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.ViewConfiguration;
 
-import cyanogenmod.providers.ThemesContract;
+import mokee.providers.ThemesContract;
 
 import java.io.BufferedInputStream;
 import java.io.File;

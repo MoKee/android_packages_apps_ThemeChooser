@@ -46,7 +46,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import cyanogenmod.providers.ThemesContract;
+import mokee.providers.ThemesContract;
 
 import org.cyanogenmod.theme.util.IconPreviewHelper;
 import org.cyanogenmod.theme.util.Utils;

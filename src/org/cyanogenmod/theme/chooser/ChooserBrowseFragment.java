@@ -62,8 +62,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.ThemesColumns;
 
 import org.cyanogenmod.theme.chooser.WallpaperAndIconPreviewFragment.IconInfo;
 import org.cyanogenmod.theme.chooser.WallpaperAndIconPreviewFragment;

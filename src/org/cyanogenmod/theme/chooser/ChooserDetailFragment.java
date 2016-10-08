@@ -56,9 +56,9 @@ import android.widget.TextView;
 
 import com.viewpagerindicator.CirclePageIndicator;
 
-import cyanogenmod.providers.ThemesContract;
-import cyanogenmod.providers.ThemesContract.MixnMatchColumns;
-import cyanogenmod.providers.ThemesContract.ThemesColumns;
+import mokee.providers.ThemesContract;
+import mokee.providers.ThemesContract.MixnMatchColumns;
+import mokee.providers.ThemesContract.ThemesColumns;
 import cyanogenmod.themes.ThemeChangeRequest;
 import cyanogenmod.themes.ThemeManager;
 import cyanogenmod.themes.ThemeManager.ThemeChangeListener;

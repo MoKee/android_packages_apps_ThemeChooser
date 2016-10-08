@@ -29,9 +29,9 @@ public class AppReceiver extends BroadcastReceiver {
         String pkgName = uri != null ? uri.getSchemeSpecificPart() : null;
         String action = intent.getAction();
 
-        if (cyanogenmod.content.Intent.ACTION_THEME_INSTALLED.equals(action)) {
+        if (mokee.content.Intent.ACTION_THEME_INSTALLED.equals(action)) {
             NotificationHelper.postThemeInstalledNotification(context, pkgName);
-        } else if (cyanogenmod.content.Intent.ACTION_THEME_REMOVED.equals(action)) {
+        } else if (mokee.content.Intent.ACTION_THEME_REMOVED.equals(action)) {
             NotificationHelper.cancelNotificationForPackage(context, pkgName);
         }
     }

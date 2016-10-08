@@ -6,9 +6,9 @@
     android:versionName="2.0" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="cyanogenmod.permission.ACCESS_THEME_MANAGER" />
-    <uses-permission android:name="cyanogenmod.permission.READ_THEMES" />
-    <uses-permission android:name="cyanogenmod.permission.WRITE_THEMES" />
+    <uses-permission android:name="mokee.permission.ACCESS_THEME_MANAGER" />
+    <uses-permission android:name="mokee.permission.READ_THEMES" />
+    <uses-permission android:name="mokee.permission.WRITE_THEMES" />
 
     <!-- The following permissions are used to hijack Google Play notifications
          when a theme is installed -->
@@ -37,7 +37,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="cyanogenmod.intent.category.APP_THEMES" />
+                <category android:name="mokee.intent.category.APP_THEMES" />
             </intent-filter>
             <intent-filter >
                 <action android:name="android.intent.action.SET_WALLPAPER" />
@@ -47,8 +47,8 @@
 
         <receiver android:name="org.cyanogenmod.theme.chooser.AppReceiver" >
             <intent-filter>
-                <action android:name="cyanogenmod.intent.action.THEME_INSTALLED" />
-                <action android:name="cyanogenmod.intent.action.THEME_REMOVED" />
+                <action android:name="mokee.intent.action.THEME_INSTALLED" />
+                <action android:name="mokee.intent.action.THEME_REMOVED" />
                 <data android:scheme="package" />
             </intent-filter>
         </receiver>

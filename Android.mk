@@ -14,7 +14,7 @@ LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, res) \
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
-    org.cyanogenmod.platform.internal \
+    org.mokee.platform.internal \
     android-support-v7-palette \
     android-support-v7-cardview
 
