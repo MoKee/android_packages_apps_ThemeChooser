@@ -34,7 +34,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.cyanogenmod.internal.util.ThemeUtils;
+import org.mokee.internal.util.ThemeUtils;
 
 import java.io.File;
 import java.io.IOException;

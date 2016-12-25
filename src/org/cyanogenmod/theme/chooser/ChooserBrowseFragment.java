@@ -76,7 +76,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static org.cyanogenmod.internal.util.ThemeUtils.SYSTEM_TARGET_API;
+import static org.mokee.internal.util.ThemeUtils.SYSTEM_TARGET_API;
 
 public class ChooserBrowseFragment extends Fragment
         implements LoaderManager.LoaderCallbacks<Cursor> {
