@@ -16,5 +16,5 @@
      limitations under the License.
 -->
 <resources>
-  <string name="legacy_theme_warning_mk">注意：%s 是为旧版本 MK 设计。使用此主题的您可能会遇到兼容性问题。</string>
+  <string name="legacy_theme_warning_mk">注意：%s 是为旧版本的魔趣系统设计。如果继续使用此主题，您可能会遇到兼容性问题。</string>
 </resources>
