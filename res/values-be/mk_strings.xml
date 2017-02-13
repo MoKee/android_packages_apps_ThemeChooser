@@ -16,5 +16,5 @@
      limitations under the License.
 -->
 <resources>
-  <string name="legacy_theme_warning_mk">Увага: %s была спраектавана для старай версіі MK. Можа ўзнікнуць праблема сумяшчальнасці с гэтай тэмай.</string>
+  <string name="legacy_theme_warning_mk">Увага: %s была спраектавана для старай версіі MK. Можа узнікнуць праблема сумяшчальнасці с гэтай тэмай.</string>
 </resources>
