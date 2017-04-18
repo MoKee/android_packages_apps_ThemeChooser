@@ -16,5 +16,5 @@
      limitations under the License.
 -->
 <resources>
-  <string name="legacy_theme_warning_mk">Poznámka: %s bol navrhnutý pre staršiu verziu MK. Môžu sa vyskytnúť problémy s kompatibilitou s touto témou.</string>
+  <string name="legacy_theme_warning_mk">HUOMIO: %s suunniteltiin vanhemmalle MK-versiolle. Saattaa ilmetä yhteensopivuus-ongelmia.</string>
 </resources>
